@@ -55,12 +55,10 @@ O objetivo principal é fortalecer a presença digital da empresa, transmitir au
 
 ## 📸 Preview
 
-> Adicione aqui screenshots do projeto
-
 ```
-/assets/preview-home.png
-/assets/preview-servicos.png
-/assets/preview-contato.png
+![Preview Home](assets/preview-home.png)
+![Preview Serviços](assets/preview-servicos.png)
+![Preview Contato](assets/preview-contato.png)
 ```
 
 ---
