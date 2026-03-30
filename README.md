@@ -59,7 +59,8 @@ O objetivo principal é fortalecer a presença digital da empresa, transmitir au
 
 ```
 /assets/preview-home.png
-/assets/preview-services.png
+/assets/preview-servicos.png
+/assets/preview-contato.png
 ```
 
 ---
@@ -79,17 +80,6 @@ npm install
 # Execute o projeto
 npm run dev
 ```
-
----
-
-## 📌 Melhorias Futuras
-
-* 📰 Blog para SEO
-* 🔗 Integração com CRM
-* 📊 Painel administrativo
-* ⚡ Otimização de performance
-
----
 
 ## 📄 Licença
 
