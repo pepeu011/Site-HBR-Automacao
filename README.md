@@ -1,36 +1,108 @@
-📄 Descrição do Projeto
+# 🚀 HBR Automação Industrial — Website Institucional
 
-Este projeto consiste no desenvolvimento de um site institucional para a empresa HBR Automação Industrial, com foco em apresentar soluções em automação industrial, robótica e integração de sistemas.
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![Responsivo](https://img.shields.io/badge/layout-responsivo-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-O principal objetivo do site é gerar leads qualificados e fortalecer a presença digital da empresa, oferecendo uma navegação clara, moderna e responsiva, além de destacar seus serviços, diferenciais e projetos realizados.
+---
 
-A aplicação foi desenvolvida com foco em experiência do usuário (UX), design profissional e otimização para mecanismos de busca (SEO), garantindo melhor desempenho e visibilidade online.
+## 💡 Sobre o Projeto
 
-🚀 Funcionalidades
-Apresentação institucional da empresa
-Listagem de serviços (automação, robótica, CLP, integração, etc.)
-Seção de projetos/cases
-Formulário de contato para geração de leads
-Integração com WhatsApp para atendimento rápido
-Layout responsivo (adaptado para mobile e desktop)
-🎯 Objetivo
+Este projeto consiste no desenvolvimento de um site institucional moderno para a empresa **HBR Automação Industrial**, com foco em apresentar soluções completas em automação industrial, robótica e integração de sistemas.
 
-Criar uma solução digital eficiente que:
+O objetivo principal é fortalecer a presença digital da empresa, transmitir autoridade no setor industrial e gerar leads qualificados.
 
-Aumente a visibilidade da empresa na internet
-Facilite o contato com clientes potenciais
-Transmita profissionalismo e autoridade no setor industrial
-🛠 Tecnologias utilizadas
+---
 
-(Você pode ajustar essa parte conforme usou no projeto)
+## 🎯 Objetivos
 
-HTML
-CSS
-JavaScript / TypeScript
-React (se estiver usando)
-Tailwind CSS (se aplicável)
-📈 Melhorias futuras
-Implementação de blog para SEO
-Integração com CRM
-Painel administrativo
-Otimizações de performance
+* 📈 Aumentar a visibilidade online
+* 🤝 Gerar oportunidades de negócio
+* 🏭 Destacar expertise no setor industrial
+* 💼 Transmitir credibilidade e profissionalismo
+
+---
+
+## ⚙️ Funcionalidades
+
+* ✅ Apresentação institucional da empresa
+* ✅ Página de serviços (automação, CLP, robótica, integração)
+* ✅ Seção de projetos e cases
+* ✅ Formulário de contato estratégico
+* ✅ Integração com WhatsApp
+* ✅ Layout 100% responsivo
+
+---
+
+## 🎨 Design & UX
+
+* ✨ Interface moderna e tecnológica
+* 🎯 Foco em conversão (CTAs estratégicos)
+* 📱 Experiência otimizada para mobile
+* ⚡ Estrutura leve e rápida
+
+---
+
+## 🛠 Tecnologias Utilizadas
+
+* HTML
+* CSS
+* JavaScript / TypeScript
+* React *(se aplicável)*
+* Tailwind CSS *(se aplicável)*
+
+---
+
+## 📸 Preview
+
+> Adicione aqui screenshots do projeto
+
+```
+/assets/preview-home.png
+/assets/preview-services.png
+```
+
+---
+
+## 🚀 Como executar o projeto
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/seu-repositorio.git
+
+# Acesse a pasta
+cd seu-repositorio
+
+# Instale as dependências (se houver)
+npm install
+
+# Execute o projeto
+npm run dev
+```
+
+---
+
+## 📌 Melhorias Futuras
+
+* 📰 Blog para SEO
+* 🔗 Integração com CRM
+* 📊 Painel administrativo
+* ⚡ Otimização de performance
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Pedro Toledo** 🚀
+
+---
+
+## ⭐ Contribuição
+
+Sinta-se à vontade para contribuir com melhorias, sugestões ou abrir issues!
