@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 20% 98%;
+    --foreground: 215 30% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 30% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 30% 12%;
+
+    --primary: 212 72% 22%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 15% 92%;
+    --secondary-foreground: 215 30% 12%;
+
+    --muted: 210 15% 95%;
+    --muted-foreground: 215 12% 50%;
+
+    --accent: 199 89% 48%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214 20% 88%;
+    --input: 214 20% 88%;
+    --ring: 212 72% 22%;
+
+    --radius: 0.5rem;
+
+    /* Custom tokens */
+    --navy: 215 50% 10%;
+    --navy-foreground: 210 40% 98%;
+    --steel: 210 10% 40%;
+    --steel-light: 210 10% 75%;
+    --cyan-glow: 199 89% 48%;
+    --gradient-hero: linear-gradient(135deg, hsl(215 50% 10%) 0%, hsla(212, 71%, 22%, 0.629) 50%, hsla(199, 89%, 38%, 0.766) 100%);
+    --gradient-cta: linear-gradient(90deg, #ffcb13,#ff8605,#d73920,#ff8605,#ffcb13);
+    --gradient-dark: linear-gradient(180deg, hsl(215 50% 10%) 0%, hsl(215 50% 6%) 100%);
+    --shadow-glow: 0 0 30px hsl(199 89% 48% / 0.3);
+    --shadow-card: 0 4px 20px hsl(215 50% 10% / 0.08);
+    --shadow-card-hover: 0 8px 40px hsl(215 50% 10% / 0.15);
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-bold tracking-tight;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-cta);
+  }
+
+  .bg-hero-gradient {
+    background: var(--gradient-hero);
+  }
+
+  .bg-cta-gradient {
+    background: var(--gradient-cta);
+  }
+
+  .bg-dark-gradient {
+    background: var(--gradient-dark);
+  }
+
+  .shadow-glow {
+    box-shadow: var(--shadow-glow);
+  }
+
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+
+  .shadow-card-hover {
+    box-shadow: var(--shadow-card-hover);
+  }
+
+  .section-padding {
+    @apply py-20 md:py-28 px-4;
+  }
+}
